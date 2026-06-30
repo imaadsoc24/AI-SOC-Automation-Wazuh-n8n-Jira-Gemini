@@ -72,4 +72,27 @@ The automation workflow follows the sequence below:
 
 ---
 
+# 📂 Project Structure
+
+```text
+AI-SOC-Automation-Wazuh-n8n-Jira-Gemini/
+│
+├── README.md
+├── LICENSE
+├── AI-SOC-Automation-Workflow-SOP.docx
+│
+└── screenshots/
+    ├── 01-n8n-workflow-overview.png
+    ├── 02-wazuh-high-severity-alert.png
+    ├── 03-jira-case-created.png
+    ├── 04-ai-investigation-comment.png
+    ├── 05-email-notification.png
+    ├── 06-ai-investigation-report.png
+    ├── 07-postgresql-incident-database.png
+    ├── 08-final-n8n-workflow.png
+    └── ...
+```
+
+---
+
 
