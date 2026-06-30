@@ -253,6 +253,24 @@ This project demonstrates practical SOC Analyst and Security Automation skills, 
 
 ---
 
+# 📈 Future Enhancements
+
+Planned improvements for future versions of this project include:
+
+- Slack and Microsoft Teams notifications
+- AbuseIPDB and AlienVault OTX integration
+- MalwareBazaar and URLhaus enrichment
+- Automatic incident prioritization
+- Interactive SOC dashboard
+- Docker deployment
+- Multi-tenant support
+- PDF investigation report generation
+- IOC historical search
+- Threat hunting dashboard
+
+---
+
+
 
 
 
