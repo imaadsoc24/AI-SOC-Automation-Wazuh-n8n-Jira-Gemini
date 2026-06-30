@@ -283,6 +283,22 @@ If you found this project useful, feel free to connect with me and provide feedb
 
 ---
 
+# ⭐ Acknowledgements
+
+Special thanks to the following technologies and communities that made this project possible:
+
+- Wazuh
+- n8n
+- Google Gemini AI
+- VirusTotal
+- Atlassian Jira
+- PostgreSQL
+- GitHub
+- Open-source Cybersecurity Community
+
+---
+
+
 
 
 
