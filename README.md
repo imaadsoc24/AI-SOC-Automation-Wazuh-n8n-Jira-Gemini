@@ -21,3 +21,22 @@ The workflow automatically:
 - Sends an email notification to SOC analysts
 
 This project simulates how a modern AI-assisted SOC can reduce manual effort while improving incident response efficiency.
+
+---
+
+# 🛠️ Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| SIEM | Wazuh |
+| Automation | n8n |
+| AI | Google Gemini |
+| Threat Intelligence | VirusTotal |
+| Ticketing | Jira |
+| Database | PostgreSQL |
+| Email Notifications | Gmail SMTP |
+| Operating System | Ubuntu Linux |
+| Containerization | Docker |
+| Version Control | Git & GitHub |
+
+---
