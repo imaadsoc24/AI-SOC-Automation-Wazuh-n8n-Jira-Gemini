@@ -217,7 +217,26 @@ The final section contains the investigation conclusion, confidence level, respo
 
 The complete incident, AI investigation, and metadata are automatically stored in PostgreSQL for auditing, reporting, and future analysis.
 
+# 🎯 Skills Demonstrated
+
+This project demonstrates practical SOC Analyst and Security Automation skills, including:
+
+- Security Information and Event Management (SIEM)
+- Security Alert Analysis
+- Incident Response Workflow Automation
+- Threat Intelligence Enrichment
+- AI-Assisted Security Investigation
+- Indicators of Compromise (IOC) Analysis
+- MITRE ATT&CK Framework Mapping
+- Jira Incident Management
+- PostgreSQL Database Integration
+- API Integration and Automation
+- Email Notification Automation
+- Security Operations Center (SOC) Processes
+- No-Code Workflow Automation using n8n
+
 ---
+
 
 
 
