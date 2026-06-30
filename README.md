@@ -143,5 +143,82 @@ The AI-powered SOC automation pipeline follows the workflow below:
 
 ---
 
+# 📸 Project Demonstration
+
+The following screenshots demonstrate the complete end-to-end SOC automation workflow.
+
+## 1️⃣ n8n Workflow Overview
+
+![Workflow](screenshots/01-n8n-workflow-overview.png)
+
+The complete automation workflow built using n8n, integrating Wazuh SIEM, VirusTotal, Google Gemini AI, PostgreSQL, Jira, and Gmail.
+
+---
+
+## 2️⃣ High Severity Alert Detection
+
+![Wazuh Alert](screenshots/02-wazuh-high-severity-alert.png)
+
+Wazuh detects a high-severity security alert generated from monitored endpoint activity and forwards it to the automation workflow.
+
+---
+
+## 3️⃣ Automatic Jira Case Creation
+
+![Jira Ticket](screenshots/03-jira-case-created.png)
+
+A Jira incident is automatically created with the alert details, severity, investigation summary, and recommended actions.
+
+---
+
+## 4️⃣ AI Investigation Comment
+
+![Jira Comment](screenshots/04-ai-investigation-comment.png)
+
+Google Gemini AI generates an investigation summary and automatically posts it as a comment on the Jira incident.
+
+---
+
+## 5️⃣ Email Notification
+
+![Email Notification](screenshots/05-email-notification.png)
+
+A formatted investigation report is automatically emailed to the SOC analyst with alert details and AI recommendations.
+
+---
+
+## 6️⃣ AI Investigation Report – Part 1
+
+![AI Report Part 1](screenshots/06-ai-report-part1.png)
+
+The first section of the AI-generated investigation report containing the executive summary, alert analysis, and risk assessment.
+
+---
+
+## 7️⃣ AI Investigation Report – Part 2
+
+![AI Report Part 2](screenshots/07-ai-report-part2.png)
+
+The second section includes detailed findings, Indicators of Compromise (IOCs), MITRE ATT&CK mapping, and recommended actions.
+
+---
+
+## 8️⃣ AI Investigation Report – Part 3
+
+![AI Report Part 3](screenshots/08-ai-report-part3.png)
+
+The final section contains the investigation conclusion, confidence level, response playbook, and final verdict.
+
+---
+
+## 9️⃣ PostgreSQL Incident Storage
+
+![PostgreSQL Database](screenshots/09-postgresql-incident-storage.png)
+
+The complete incident, AI investigation, and metadata are automatically stored in PostgreSQL for auditing, reporting, and future analysis.
+
+---
+
+
 
 
