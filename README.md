@@ -40,3 +40,19 @@ This project simulates how a modern AI-assisted SOC can reduce manual effort whi
 | Version Control | Git & GitHub |
 
 ---
+
+# 🏗️ Workflow Architecture
+
+The automation workflow follows the sequence below:
+
+1. Wazuh detects a high-severity security alert.
+2. The alert is sent to n8n using a Webhook.
+3. n8n extracts important IoCs (IP address, hash, domain, etc.).
+4. VirusTotal checks the reputation of the extracted IoCs.
+5. Google Gemini AI analyzes the alert and generates an investigation summary.
+6. A Jira incident ticket is created automatically.
+7. Investigation details are stored in PostgreSQL.
+8. A notification email is sent to the SOC analyst.
+9. The analyst reviews the Jira ticket and takes further action.
+
+---
