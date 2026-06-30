@@ -1,4 +1,23 @@
 # 🤖 AI-Powered SOC Automation with Wazuh, n8n, Jira & Google Gemini
+![GitHub stars](https://img.shields.io/github/stars/imaadsoc24/AI-SOC-Automation-Wazuh-n8n-Jira-Gemini?style=for-the-badge)
+
+![GitHub license](https://img.shields.io/github/license/imaadsoc24/AI-SOC-Automation-Wazuh-n8n-Jira-Gemini?style=for-the-badge)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/imaadsoc24/AI-SOC-Automation-Wazuh-n8n-Jira-Gemini?style=for-the-badge)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/imaadsoc24/AI-SOC-Automation-Wazuh-n8n-Jira-Gemini?style=for-the-badge)
+
+![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-blue?style=for-the-badge)
+
+![n8n](https://img.shields.io/badge/n8n-Automation-orange?style=for-the-badge)
+
+![Google Gemini](https://img.shields.io/badge/Google-Gemini_AI-green?style=for-the-badge)
+
+![Jira](https://img.shields.io/badge/Jira-Incident_Management-blue?style=for-the-badge)
+
+![VirusTotal](https://img.shields.io/badge/VirusTotal-Threat_Intelligence-blue?style=for-the-badge)
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?style=for-the-badge)
 
 > An end-to-end AI-driven Security Operations Center (SOC) automation workflow that automatically detects security alerts in Wazuh SIEM, enriches them with VirusTotal intelligence, analyzes them using Google Gemini AI, creates Jira incidents, stores investigation results in PostgreSQL, and sends email notifications to security analysts.
 
