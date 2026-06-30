@@ -298,6 +298,13 @@ Special thanks to the following technologies and communities that made this proj
 
 ---
 
+# 📜 License
+
+This project is licensed under the MIT License.
+
+See the LICENSE file for more details.
+
+
 
 
 
