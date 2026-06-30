@@ -237,6 +237,23 @@ This project demonstrates practical SOC Analyst and Security Automation skills, 
 
 ---
 
+# 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Wazuh SIEM | Security monitoring and alert generation |
+| n8n | Workflow automation platform |
+| Google Gemini AI | AI-powered investigation and analysis |
+| VirusTotal API | Threat intelligence enrichment |
+| Jira | Incident ticket management |
+| PostgreSQL | Incident database storage |
+| Gmail API | Email notifications |
+| Windows Sysmon | Endpoint event collection |
+| Windows Event Logs | Security event monitoring |
+
+---
+
+
 
 
 
