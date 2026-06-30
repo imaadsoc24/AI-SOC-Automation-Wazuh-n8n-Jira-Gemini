@@ -270,6 +270,19 @@ Planned improvements for future versions of this project include:
 
 ---
 
+# 👨‍💻 Author
+
+**Muhammad Imaad Ul Haq**
+
+SOC Analyst | Blue Team | Security Automation
+
+- LinkedIn: https://www.linkedin.com/in/imaad-ul-haq
+- GitHub: https://github.com/imaadsoc24
+
+If you found this project useful, feel free to connect with me and provide feedback.
+
+---
+
 
 
 
