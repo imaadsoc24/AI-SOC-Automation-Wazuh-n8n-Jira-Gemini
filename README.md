@@ -95,4 +95,53 @@ AI-SOC-Automation-Wazuh-n8n-Jira-Gemini/
 
 ---
 
+# ⚙️ End-to-End Workflow
+
+The AI-powered SOC automation pipeline follows the workflow below:
+
+### 1. Alert Detection
+- Wazuh SIEM continuously monitors endpoint activity using Sysmon and Windows Event Logs.
+- When a suspicious event matches a detection rule, Wazuh generates a security alert.
+
+### 2. Alert Ingestion
+- The alert is sent to n8n using a Webhook.
+- n8n receives and parses the raw JSON payload.
+
+### 3. IOC Extraction
+- Important Indicators of Compromise (IOCs) such as IP addresses, usernames, file paths, processes, Event IDs, Rule IDs and MITRE ATT&CK mappings are extracted.
+
+### 4. Threat Intelligence Enrichment
+- Extracted IP addresses are queried against VirusTotal.
+- Reputation and detection information are added to the investigation.
+
+### 5. AI Investigation
+- Google Gemini AI analyzes the enriched alert.
+- AI generates:
+  - Executive Summary
+  - Risk Assessment
+  - Priority
+  - Confidence Level
+  - Investigation Findings
+  - Recommended Actions
+  - Investigation Playbook
+  - Final Verdict
+
+### 6. Incident Management
+- A unique Case ID is generated.
+- Incident details are stored in PostgreSQL.
+- A Jira ticket is automatically created.
+- AI Investigation Summary is added as a Jira comment.
+
+### 7. Analyst Notification
+- A professionally formatted email containing the investigation report and case details is automatically sent to the SOC analyst.
+
+### 8. Investigation
+- The SOC analyst reviews the Jira ticket.
+- Validates the AI findings.
+- Performs additional investigation if required.
+- Takes appropriate response actions.
+
+---
+
+
 
