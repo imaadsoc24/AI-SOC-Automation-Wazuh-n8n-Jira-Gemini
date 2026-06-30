@@ -56,3 +56,20 @@ The automation workflow follows the sequence below:
 9. The analyst reviews the Jira ticket and takes further action.
 
 ---
+
+# ✨ Key Features
+
+- 🚨 Automated alert ingestion from Wazuh SIEM
+- 🔍 Automatic IoC extraction (IP, Domain, URL, Hash)
+- 🌐 VirusTotal threat intelligence enrichment
+- 🤖 AI-powered investigation using Google Gemini
+- 🎫 Automatic Jira incident creation
+- 🗄️ PostgreSQL database storage for investigations
+- 📧 Email notification to SOC analysts
+- ⚡ End-to-end no-code automation using n8n
+- 📊 Reduced Mean Time To Detect (MTTD) and Mean Time To Respond (MTTR)
+- 🔒 Suitable for Blue Team and SOC automation demonstrations
+
+---
+
+
